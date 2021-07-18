@@ -1,0 +1,90 @@
+*{
+  font: 50rem;
+  margin: 0px 0px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    
+}
+#sb{
+ background-color: rgb(9, 120, 163);
+ height: 100%;
+}
+#container{
+    height: 100%;
+   
+}
+#container .head{
+    font-size: 50px;
+    padding: 30px 70px;
+    color: rgb(9, 120, 163);
+   
+}
+#container form{
+  
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px;
+    font-size: large;
+  
+}
+
+.detail{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+}  
+
+
+.item{
+    display: flex;
+    flex-direction: column;
+   
+    padding: 20px;
+}
+
+.operation{
+      display: grid;
+      grid-template-columns:200px 200px ;
+      padding: 100px 0px;
+    grid-column-gap: 40rem;
+}
+.op{
+     border: 0px ;
+     color: gray;
+     background-color: white;
+     
+}
+.op:hover{
+    cursor: pointer;
+    
+    background-color: rgb(9, 120, 163);
+    color: white;
+    border-radius: 50px;
+}
+.item input{
+    border: none;
+
+    border-bottom: 2px solid silver;
+}
+#btn{
+
+    background-color: rgb(9, 120, 163);
+    color: white;
+    border-radius: 50px;
+    padding: 18px;
+   
+}
+#btn:hover{
+ transform:scale(1.05);
+ cursor: pointer;
+}
+.item input:hover{
+ border: 2px solid rgb(9, 120, 163) ;
+ padding: 12px;
+    cursor: pointer;
+}

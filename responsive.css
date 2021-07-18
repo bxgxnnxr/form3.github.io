@@ -1,0 +1,11 @@
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.operation{
+
+  grid-column-gap: 15rem;
+}

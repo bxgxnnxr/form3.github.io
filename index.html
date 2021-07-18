@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media=" (max-width:950px)" href="responsive.css">
+
+
+<body>
+ 
+    <div id="sb" >
+
+    </div>
+    <div id="container" >
+        <div class="head">Basic Details</div>
+        <form>
+            <div class="detail" >
+                <p class="item">
+                    <label for="fn" placeholder="enter your first name">First name : </label>
+                    <input type="text" name="fn"  placeholder="enter your first name">
+                </p>
+                <p class="item">
+                    <label for="ln" placeholder="enter your last name">Last name : </label>
+                    <input type="text" name="ln" placeholder="enter your last name">
+                </p>
+                
+                <p class="item">
+                    <label for="email"  placeholder="enter your mail id">Email : </label>
+                    <input type="email" name="email"  placeholder="enter your mail id">
+                </p>
+                <p class="item">
+                    <label for="UI">User id : </label>
+                    <input type="text" name="UI"  placeholder="enter your user id">
+                </p>
+                <p class="item">
+                    <label for="country"> Country : </label>
+                    <select name="country" id="country">
+                        <option value="india">India</option>
+                       
+                    
+                    </select>
+                </p>
+                <p class="item">
+                    <label for="state">State :</label>
+                    <select name="state" id="state">
+                        <option value="mp">MP</option>
+                        <option value="up">Up</option>
+                    <option value="chhatisgarh">chhatisgarh</option>
+                    <option value="rajasthan">rajasthan</option>
+                    <option value="bihar">bihar</option>
+                    <option value="AP">AP</option>
+                    <option value="J&K">J & K</option>
+                    <option value="tamil nadu">tamil nadu</option>
+                    
+                </select>
+                </p>
+                <p  class="item">
+                    <label for="phone number"> Phone number :</label>
+                    <input type="tel" name="phone number"  placeholder="enter your phone number">
+                </p>
+                <p class="item"  <label for="Reference"><br></label>
+                    <input type="text" name="reference" placeholder="Reference no">
+                   
+                </p>
+            </div>
+            <div class="operation" >
+              
+                <input class="op" type="reset" value="Reset all ">
+               
+                <button  id="btn">
+                    <h2>Continue</h2>
+                </button>
+            </div>
+            
+
+        </form>
+    </div>
+</div>
+
+</body>
+
+</html>
